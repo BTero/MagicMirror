@@ -1,4 +1,4 @@
-jQuery(document).ready(function($){
+$(document).ready(function(){
   moment.locale(config.lang);
 
   time.init();
