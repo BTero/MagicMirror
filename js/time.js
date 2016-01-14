@@ -18,7 +18,7 @@ time.updateTime = function(){
   $(this.timeLocation).html(_now.format(this._timeFormat+':mm[<span class="sec">]ss[</span>]'));
 };
 
-time.int = function(){
+time.init = function(){
   if(parseInt(time.timeFormat) === 12){
     time._timeFormat = 'hh';
   }else{
