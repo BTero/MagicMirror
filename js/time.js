@@ -16,7 +16,7 @@ time.updateTime = function(){
 
   $(this.dateLocation).html(_date);
   $(this.timeLocation).html(_now.format(this._timeFormat+':mm[<span class="sec">]ss[</span>]'));
-}
+};
 
 time.int = function(){
   if(parseInt(time.timeFormat) === 12){
@@ -28,4 +28,4 @@ time.int = function(){
   this.intervalID = setInterval(function(){
     this.updateTime();
   }.bind(this), 1000);
-}
+};

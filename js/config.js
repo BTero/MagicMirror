@@ -14,4 +14,4 @@ var config = {
             APPID: 'YOUR_FREE_OPENWEATHER_API_KEY'
         }
     }*/
-}
+};
