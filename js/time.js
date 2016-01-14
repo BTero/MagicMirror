@@ -1,5 +1,5 @@
 var time = {
-  timeFormat: config.time.timeFormat || 24,
+  timeFormat: config.time.timeFormat,
   dateLocation: '.date',
   timeLocation: '.time',
   updateInterval: 1000,
