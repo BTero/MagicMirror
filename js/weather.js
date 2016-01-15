@@ -21,7 +21,7 @@ var weather = {
 		'13n':'wi-night-snow',
 		'50n':'wi-night-alt-cloudy-windy'
   },
-  temperatureLocation: '.temp',
+  temperatureLocation: '.temperature',
   forcastLocation: '.forcast',
   apiBase: 'http://api.openweathermap.org/data/',
   apiVersion: '2.5',
