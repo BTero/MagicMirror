@@ -16,3 +16,7 @@ body {
 .time{
   font-size:  120px;
 }
+
+.time .sec{
+  font-size: 50px;
+}
